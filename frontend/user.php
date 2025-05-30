@@ -7,14 +7,13 @@ while ($record = mysqli_fetch_array($query)) {
 ?>
 <div class="col-lg-9 mt-3">
   <div class="card">
-    <div class="card-header">
-      Halaman User
-    </div>
+    <div class="card-header justify-content-between d-flex bg-success">
+     <h5 class="text-light mt-2">Halaman User</h5>
+                 <button class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#modaltambahuser"> Tambah User</button>
+      </div>
     <div class="card-body">
       <div class="row">
-        <div class="col d-flex justify-content-end">
-          <button class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#modaltambahuser"> Tambah User</button>
-        </div>
+       
       </div>
       <!-- Modal tambah user-->
       <div class="modal fade" id="modaltambahuser" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">

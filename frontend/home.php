@@ -31,7 +31,7 @@
         </button>
       </div>
       <div class="text-center" style="margin-top: 20px;">
-        Selamat Datang Di Website , Selamat Bekerja <i class="bi bi-balloon"></i>
+        Belanja Kebutuhan Menjadi Lebih Mudah Dengan AVS Store! <i class="bi bi-balloon"></i>
       </div>
     </div>
   </div>

@@ -1,10 +1,10 @@
-<nav class="navbar navbar-expand navbar-dark bg-dark sticky-top">
+<nav class="navbar navbar-expand navbar-success bg-success sticky-top ">
   <div class="container-lg">
-    <a class="navbar-brand" href="."><i class="bi bi-strava"></i> AVS Store</a>
+    <a class="navbar-brand text-light" href="."><i class="bi bi-strava text-light"></i> AVS Store</a>
     <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
       <ul class="navbar-nav dropdown-menu-end ">
         <li class="nav-item dropdown ">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             <?php echo $hasil['username']; ?>
           </a>
           <ul class="dropdown-menu dropdown-menu-end mt-2">

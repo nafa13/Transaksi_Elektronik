@@ -15,14 +15,15 @@ while ($record = mysqli_fetch_array($query)) {
 ?>
 <div class="col-lg-9 mt-3">
   <div class="card">
-    <div class="card-header">
-      Halaman Order
+    <div class="card-header bg-success text-light justify-content-between d-flex">
+        <h5 class="text-light mt-2">Halaman Order</h5>
+       <button class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#modaltambahuser"> Tambah Order</button>
     </div>
     <div class="card-body">
       <div class="row">
-        <div class="col d-flex justify-content-end">
-          <button class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#modaltambahuser"> Tambah Order</button>
-        </div>
+        
+         
+       
       </div>
       <!-- Modal tambah order-->
       <div class="modal fade" id="modaltambahuser" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">

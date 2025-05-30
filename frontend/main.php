@@ -38,13 +38,13 @@
     </div>
   </div>
   <!-- Remove the container if you want to extend the Footer to full width. -->
-  <div class="container-fluid mt-5">
+  <div class="container-fluid mt-5 bg-success">
 
-    <footer class="footer footer-expend bg-dark text-center text-white">
+    <footer class="footer footer-expend  text-center text-white bg-success">
       <!-- Grid container -->
-      <div class="container p-4 pb-0">
+      <div class="container p-4 pb-0 ">
         <!-- Section: Social media -->
-        <section class="mb-4">
+        <section class="mb-4 ">
           <!-- Facebook -->
           <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-facebook-f"><i class="bi bi-facebook"></i></i></a>
 
@@ -63,9 +63,9 @@
       <!-- Grid container -->
 
       <!-- Copyright -->
-      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-        © 2020 Copyright:
-        <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+      <div class="text-center bg-success p-3" >
+        ©2025 Copyright |
+        <a class="text-white" href="#">AVS Store</a>
       </div>
       <!-- Copyright -->
     </footer>
